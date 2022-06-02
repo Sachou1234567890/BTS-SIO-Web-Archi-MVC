@@ -16,7 +16,7 @@ dependencies:
 hooks:
     build: |
                 set -e
-		cp .env-exemple .env
+		        cp .env-exemple .env
 
     deploy: |
                 set -e
@@ -26,7 +26,7 @@ hooks:
 # to the application in the PLATFORM_RELATIONSHIPS variable. The right-hand
 # side is in the form `<service name>:<endpoint name>`.
 relationships:
-   database: "db:mysql"
+        database: "db:mysql"
 
 # The size of the persistent disk of the application (in MB).
 disk: 2048

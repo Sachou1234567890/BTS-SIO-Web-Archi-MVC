@@ -16,6 +16,7 @@ dependencies:
 hooks:
     build: |
                 set -e
+		cp .env-exemple .env
 
     deploy: |
                 set -e

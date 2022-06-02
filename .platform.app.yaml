@@ -15,11 +15,10 @@ dependencies:
 # The hooks that will be performed when the package is deployed.
 hooks:
     build: |
-                set -e
-		        cp .env-exemple .env
+            set -e
 
     deploy: |
-                set -e
+            set -e
 
 # The relationships of the application with services or other applications.
 # The left-hand side is the name of the relationship as it will be exposed
